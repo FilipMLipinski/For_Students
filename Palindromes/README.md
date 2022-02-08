@@ -5,7 +5,7 @@ A palindrome is a string that reads the same from left to right as right to left
 For example: 'madam' and 'rotator' are palindromes, but 'madame' is not a palindrome.
 
 Your task is to design a program that tells whether a string is 
-a palindrome or not. If at any point you feel stuck, you can consult the code I wrote in palindromes.py
+a palindrome or not. If at any point you feel stuck, you can consult the code I wrote in palindromes.py. However, try to implement it by yourself in your IDE first.
 
 Here are the steps needed to solve this problem, using a stack:
 #### 1. Think about how you would use a stack to solve this problem.
