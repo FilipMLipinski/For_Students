@@ -1,5 +1,5 @@
-###Problem: Is the given string a palindrome? 
-####This is a practice problem relating to stacks, find 2 hours to work on this. If it gets too hard, then use some of my code. Most importantly, you should have an answer to point 1. and understand how my code works.
+### Problem: Is the given string a palindrome? 
+#### This is a practice problem relating to stacks, find 2 hours to work on this. If it gets too hard, then use some of my code. Most importantly, you should have an answer to point 1. and understand how my code works.
 
 A palindrome is a string that reads the same from left to right as right to left.
 For example: 'madam' and 'rotator' are palindromes, but 'madame' is not a palindrome.
@@ -8,10 +8,10 @@ Your task is to design a program that tells whether a string is
 a palindrome or not. If at any point you feel stuck, you can consult the code I wrote in palindromes.py
 
 Here are the steps needed to solve this problem, using a stack:
-####1. Think about how you would use a stack to solve this problem.
+#### 1. Think about how you would use a stack to solve this problem.
 This step is essential, as you may expect something like this on the A level. Write down the answer
 in your own words on paper.
-####2. Define push and pop stack methods. 
+#### 2. Define push and pop stack methods. 
 The contents of the stack can be represented as list. The first item in the list is on the bottom of the stack. 
 The last item in the list is at the top of the stack.
 
@@ -44,7 +44,7 @@ print(item, stack[top])
 # should print 4 3
 ```
 
-####3. Define the isPalindrome function.
+#### 3. Define the isPalindrome function.
 Use the concept you have figured out in 1. and the stack methods you've implemented in 2.
 First assume that input string is of even length, then try and make it work also for
 odd-length strings.
